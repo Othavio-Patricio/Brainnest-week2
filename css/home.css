@@ -1,20 +1,20 @@
 :root {
-  --darker-main-color: #1F2937;
   --blue-btn-color: #3882F6;
+  --darker-main-color: #1F2937;
 }
 
 .sign-up-btn {
   background-image: linear-gradient(45deg, #3882F6 60%, #5a7cb3, #566277);
-  background-size: 500%;
   background-position: left;
-  border: none;
-  cursor: pointer;
-  padding: 6px 25px;
-  color: white;
-  font-weight: 900;
-  transition-duration: 2s;
   border-radius: 7px;
+  background-size: 500%;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-weight: 900;
   margin-top: 15px;
+  padding: 6px 25px;
+  transition-duration: 2s;
 }
 
 .sign-up-btn:hover {
@@ -41,15 +41,15 @@
 }
 
 .second-header-txt-area h2 {
+  color: #f9faf8;
   font-size: 48px;
   font-weight: 900;
-  color: #f9faf8;
 }
 
 .second-header-txt-area p {
-  margin-top: 15px;
-  font-size: 18px;
   color: #e5e7eb;
+  font-size: 18px;
+  margin-top: 15px;
 }
 
 .second-header-container div img {
@@ -64,30 +64,30 @@
 }
 
 #information h3 {
+  color: var(--darker-main-color);
   font-size: 36px;
   font-weight: bolder !important;
-  color: var(--darker-main-color);
 }
 
 #information ul li {
-  flex: 1;
-  padding: 3%;
-  display: flex;
-  flex-direction: column;
   align-items: center;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 3%;
   text-align: center;
 }
 
 #information ul li img {
-  width: 150px;
-  height: 150px;
   border: 3px solid #3882F6;
   border-radius: 15px;
+  height: 150px;
+  width: 150px;
 }
 
 #information ul li p {
-  margin-top: 10px;
   color: #1F2937;
+  margin-top: 10px;
 }
 
 /* Quote */
@@ -99,19 +99,19 @@
 }
 
 #quote div div p span {
+  color: var(--darker-main-color);
   display: flex;
   font-size: 25px;
-  font-weight: 500;
   font-style: normal;
-  color: var(--darker-main-color);
+  font-weight: 500;
   justify-content: end;
 }
 
 #quote div div p {
+  color: #1f2937;
   font-size: 36px;
   font-style: italic;
   font-weight: 300;
-  color: #1f2937;
   width: 90%;
 }
 
@@ -122,14 +122,14 @@
 }
 
 #blue-box-container {
-  background-color: var(--blue-btn-color);
-  width: 50%;
-  padding: 40px 0;
-  display: flex;
   align-items: center;
-  justify-content: space-evenly;
-  color: white;
+  background-color: var(--blue-btn-color);
   border-radius: 10px;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 40px 0;
+  width: 50%;
 }
 
 #botton-btn {
