@@ -1,20 +1,27 @@
 * {
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
 :root {
-  --darker-main-color: #1F2937;
+  --darker-main-color: #1f2937;
 }
 
 .up-container {
   display: flex;
   justify-content: center;
 }
-
+.column-container {
+  display: flex;
+  flex-direction: column-reverse;
+  text-align: center;
+  padding: 150px;
+  /* align-content: center; */
+  /* justify-content: center; */
+}
 .container {
   display: flex;
   align-items: center;
@@ -38,18 +45,18 @@
   margin-right: 5px;
 }
 
-
-#header div div, header div a {
+#header div div,
+header div a {
   align-items: center;
   cursor: pointer;
   display: flex;
 }
 
 #header div a h1 {
-  color: #F9FAF8;
+  color: #f9faf8;
   flex: 1;
   font-size: 24px;
-  font-weight: 900; 
+  font-weight: 900;
   min-width: fit-content;
 }
 
@@ -67,7 +74,7 @@
 
 #header div ul li a {
   text-decoration: none;
-  color: #E5E7EB;
+  color: #e5e7eb;
 }
 
 /* Footer part */
@@ -76,7 +83,13 @@ footer {
   display: flex;
   justify-content: center;
   background-color: var(--darker-main-color);
-  color: #E5E7EB;
+  color: #e5e7eb;
   padding: 25px 0;
   margin-top: 100px;
+}
+tickets-wrapper {
+  display: flex;
+}
+.tickets-item {
+  color: #e5e7eb;
 }
